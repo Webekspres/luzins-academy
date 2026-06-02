@@ -12,15 +12,4 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  vite: {
-    ssr: {
-      external: ["@tanstack/react-router"],
-    },
-  },
-  nitro: {
-    // Configure for Vercel deployment
-    prerender: {
-      routes: ["/"],
-    },
-  },
 });
