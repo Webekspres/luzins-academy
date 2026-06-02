@@ -22,8 +22,8 @@ export function PackageSection() {
             Ambil <span className="text-gradient-red">Tempat</span> Anda Sekarang
           </h2>
         </div>
-        <div className="relative mt-10 overflow-hidden border-2 border-primary bg-card shadow-red">
-          <div className="absolute right-5 top-5 bg-accent px-3 py-1 text-xs font-bold uppercase text-accent-foreground">
+        <div className="relative mt-10 overflow-visible border-2 border-primary bg-card shadow-red">
+          <div className="absolute right-5 -top-5 z-20 bg-accent px-3 py-1 text-xs font-bold uppercase text-accent-foreground">
             Promo Spesial
           </div>
           <div className="p-8 sm:p-10">
