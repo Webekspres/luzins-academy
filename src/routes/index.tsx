@@ -24,7 +24,7 @@ import ogImage from "../assets/og-image.png?url";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Luzins Academy Indonesia — Pelatihan Public Speaking Profesional" },
+      { title: "Luzins Academy Indonesia | Pelatihan Public Speaking Profesional" },
       {
         name: "description",
         content:
@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Luzins Academy Indonesia — Pelatihan Public Speaking Profesional",
+        content: "Luzins Academy Indonesia | Pelatihan Public Speaking Profesional",
       },
       {
         property: "og:description",
@@ -74,10 +74,10 @@ const jsonLdData = {
   "@graph": [
     {
       "@type": "EducationOrganization",
-      "@id": "https://luzinsacademy-mvp.pages.dev/#organization",
+      "@id": "https://www.luzinsworkshop.web.id/#organization",
       "name": "Luzins Academy Indonesia",
-      "url": "https://luzinsacademy-mvp.pages.dev",
-      "logo": "https://luzinsacademy-mvp.pages.dev/assets/og-image.png",
+      "url": "https://www.luzinsworkshop.web.id",
+      "logo": "https://www.luzinsworkshop.web.id/assets/og-image.png",
       "description": "Lembaga Kursus Pelatihan (LKP) Public Speaking Resmi berlisensi Kemenkumham RI.",
       "founder": {
         "@type": "Person",
@@ -90,11 +90,11 @@ const jsonLdData = {
     },
     {
       "@type": "Course",
-      "@id": "https://luzinsacademy-mvp.pages.dev/#course",
+      "@id": "https://www.luzinsworkshop.web.id/#course",
       "name": "Sertifikasi & Pelatihan Public Speaking Seni Berbicara",
       "description": "Latih skill komunikasi & seni berbicara bersama trainer berpengalaman Coach Ibnu Jabir. Online & offline, untuk pemula hingga profesional.",
       "provider": {
-        "@id": "https://luzinsacademy-mvp.pages.dev/#organization"
+        "@id": "https://www.luzinsworkshop.web.id/#organization"
       },
       "educationalCredentialAwarded": "Gelar Non-Akademik C.PS (Certified Public Speaker)",
       "hasCourseInstance": {

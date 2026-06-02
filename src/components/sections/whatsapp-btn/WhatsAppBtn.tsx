@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
-const WA_NUMBER = "6281234567890";
-export const WA_LINK = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Halo Admin, saya tertarik untuk mendaftar pelatihan Public Speaking.")}`;
+const WA_NUMBER = "6285215700811";
+export const WA_LINK = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Halo Admin Luzins!, saya tertarik untuk mendaftar pelatihan Public Speaking.")}`;
 
 export function WhatsAppBtn({
   children,

@@ -22,7 +22,7 @@ export function FinalCta() {
           <WhatsAppBtn size="lg">Konsultasi via WhatsApp</WhatsAppBtn>
         </div>
         <div className="mt-6 flex items-center justify-center gap-2 text-sm text-muted-foreground">
-          <Phone className="h-4 w-4" /> +62 812-3456-7890 (24/7)
+          <Phone className="h-4 w-4" />  +62 852-1570-0811 (24/7)
         </div>
       </div>
     </section>
