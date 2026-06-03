@@ -18,7 +18,7 @@ export function Footer() {
           <div className="font-display text-lg uppercase">Kontak</div>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
             <li className="flex items-center gap-2">
-              <MessageCircle className="h-4 w-4 text-whatsapp" />  +62 852-1570-0811
+              <MessageCircle className="h-4 w-4 text-whatsapp" />  +62 823-9552-9665
             </li>
             <li className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-primary" /> luzinsacademyindonesia@gmail.com

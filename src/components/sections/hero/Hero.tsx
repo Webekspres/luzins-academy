@@ -35,37 +35,37 @@ export function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 pb-20 pt-14 lg:grid-cols-2 lg:pt-20">
         <div className="order-1">
-          <SectionLabel>Luzins Academy Indonesia</SectionLabel>
-
-          <h1 className="mt-5 text-5xl font-bold uppercase leading-[0.95] sm:text-6xl lg:text-7xl">
+          <div className="flex justify-center lg:justify-start">
+            <SectionLabel>Luzins Academy Indonesia</SectionLabel>
+          </div>
+          <h1 className="mt-5 text-center text-5xl font-bold uppercase leading-[0.95] sm:text-6xl lg:text-left lg:text-7xl">
             Latih Skill <br className="hidden sm:block" />
             Komunikasi Kamu <br />
-            dalam <span className="text-gradient-red">Seni Berbicara</span>
+            dalam <span className="text-gradient-gold">Seni Berbicara</span>
           </h1>
 
-          <p className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg">
-            Tingkatkan kepercayaan diri, kuasai teknik berbicara yang
-            meyakinkan, dan sampaikan pesan dengan impact yang menginspirasi
-            audiens.
+          <p className="mx-auto mt-6 text-center text-base text-muted-foreground sm:text-lg lg:mx-0 lg:max-w-xl lg:text-left">
+            Tingkatkan kepercayaan diri, kuasai teknik berbicara yang meyakinkan,
+            dan sampaikan pesan dengan impact yang menginspirasi audiens.
           </p>
 
-          <div className="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+          <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
             <WhatsAppBtn size="lg">Daftar Sekarang</WhatsAppBtn>
 
             <a
               href="#program"
               className="inline-flex items-center gap-2 px-2 text-sm font-semibold text-foreground/80 hover:text-primary"
             >
-              <PlayCircle className="h-5 w-5" />
-              Lihat Materi Training
-            </a>
-          </div>
+                <PlayCircle className="h-5 w-5" />
+                Lihat Materi Training
+              </a>
+            </div>
 
-          <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4 border-t border-border pt-6">
-            <Stat n="9+ Tahun" l="Pengalaman Coach" />
-            <Stat n="LKP Resmi" l="Izin Operasional" />
-            <Stat n="C.PS" l="Gelar Non-Akademik" />
-          </div>
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4 border-t border-border pt-6 text-center lg:justify-start lg:text-left">
+              <Stat n="9+ Tahun" l="Pengalaman Coach" />
+              <Stat n="LKP Resmi" l="Izin Operasional" />
+              <Stat n="C.PS" l="Gelar Non-Akademik" />
+            </div>
         </div>
 
         <div className="order-2 flex justify-center lg:justify-end">
@@ -98,12 +98,12 @@ export function Hero() {
               <div className="mt-3 flex flex-col gap-1.5 font-bold uppercase">
                 <span className="inline-flex items-center gap-2 text-sm text-white drop-shadow-lg">
                   <CheckCircle2 className="h-4 w-4 shrink-0 text-primary" />
-                  Master Trainer Lisensi Kemenkumham
+                  Master trainer Lisensi BNSP RI
                 </span>
 
                 <span className="inline-flex items-center gap-2 text-sm text-white drop-shadow-lg">
                   <CheckCircle2 className="h-4 w-4 shrink-0 text-primary" />
-                  Fasilitator Nasional Lisensi Kemenkumham
+                  Fasilitator Nasional Lisensi Kemendikdasmen
                 </span>
               </div>
             </div>

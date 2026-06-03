@@ -125,3 +125,9 @@
 @utility animate-marquee {
   animation: marquee 25s linear infinite;
 }
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #f7d774, #d4af37, #fff1a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
