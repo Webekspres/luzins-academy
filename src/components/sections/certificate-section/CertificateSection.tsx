@@ -56,8 +56,7 @@ export function CertificateSection() {
           </h2>
           <p className="mt-5 text-muted-foreground">
             Setiap peserta yang menyelesaikan pelatihan akan mendapatkan sertifikat resmi sebagai
-            bukti kompetensi dari
-            <strong className="text-foreground">PT. LUZINS ACADEMY INDONESIA</strong>.
+            bukti kompetensi dari <strong className="text-foreground">PT. LUZINS ACADEMY INDONESIA</strong>.
           </p>
           <ul className="mt-6 space-y-3">
             {[
