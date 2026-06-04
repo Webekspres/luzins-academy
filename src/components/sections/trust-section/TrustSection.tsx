@@ -5,14 +5,6 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 export function TrustSection() {
   const animation = useScrollAnimation();
-  const partners = [
-    "Universitas Nusantara",
-    "PT Karya Bangsa",
-    "Komunitas Speaker ID",
-    "Pemkot Bandung",
-    "Yayasan Edukasi",
-    "BUMN Connect",
-  ];
   return (
     <section ref={animation.ref} className={`border-y border-border bg-surface py-14 ${animation.className}`}>
       <div className="mx-auto max-w-7xl px-4">
@@ -22,7 +14,7 @@ export function TrustSection() {
             Bersama Lembaga <span className="text-gradient-red">Terpercaya</span>
           </h2>
           <div className="mt-4 max-w-3xl">
-            <div className="font-bold text-lg text-primary">PT. LUZINS ACADEMY INDONESIA</div>
+            <div className="font-bold text-lg text-gold">PT. LUZINS ACADEMY INDONESIA</div>
             <div className="text-xs text-muted-foreground mt-1">
               Kemenkumham: AHU-029375.AH.01.30.Tahun 2025
             </div>

@@ -1,6 +1,7 @@
 import posterWorkshop from "@/assets/poster-workshop-public-speaking.jpeg";
 import { SectionLabel } from "@/components/sections/section-label/SectionLabel";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+import { WhatsAppBtn } from "../whatsapp-btn/WhatsAppBtn";
 
 export function PackageSection() {
   const animation = useScrollAnimation();
@@ -13,10 +14,16 @@ export function PackageSection() {
       <div className="mx-auto max-w-3xl px-4">
         <div className="text-center">
           <div className="flex justify-center">
-            <SectionLabel>Paket Pendaftaran</SectionLabel>
+            <SectionLabel>Kuota Terbatas  </SectionLabel>
           </div>
 
-          <h2 className="mt-4 text-4xl sm:text-5xl uppercase font-semibold">Amankan <span className="text-gradient-red">Tempat</span> Anda Sekarang </h2>
+          <h2 className="mt-4 text-4xl sm:text-5xl uppercase font-semibold">Amankan <span className="text-gradient-red">Tempat</span> Anda Sekarang</h2>
+        </div>
+
+        <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
+          <WhatsAppBtn size="md" className="mx-auto mt-10">
+            Daftar Klik Disini
+          </WhatsAppBtn>
         </div>
 
         <div className="mt-10 overflow-hidden border border-border bg-card shadow-red">

@@ -50,21 +50,21 @@ export function CertificateSection() {
     <section ref={animation.ref} className={`mx-auto max-w-7xl px-4 py-20 ${animation.className}`}>
       <div className="grid items-center gap-10 lg:grid-cols-2">
         <div>
-          <SectionLabel>Sertifikat Resmi</SectionLabel>
+          <SectionLabel className="text-primary">Sertifikat Resmi</SectionLabel>
           <h2 className="mt-4 text-4xl sm:text-5xl uppercase font-semibold">
             Dapatkan <span className="text-gradient-red">Sertifikat</span> Setelah Lulus
           </h2>
           <p className="mt-5 text-muted-foreground">
             Setiap peserta yang menyelesaikan pelatihan akan mendapatkan sertifikat resmi sebagai
             bukti kompetensi dari
-            <strong className="text-foreground"> Lead &amp; Speak Academy</strong>.
+            <strong className="text-foreground">PT. LUZINS ACADEMY INDONESIA</strong>.
           </p>
           <ul className="mt-6 space-y-3">
             {[
               "Sertifikat digital + soft copy siap cetak",
               "Diterbitkan oleh lembaga berlegalitas",
               "Bisa untuk portofolio kerja & beasiswa",
-              "Pengiriman maksimal 7 hari setelah training",
+              "Sertifikat diberikan langsung setelah kegiatan selesai",
             ].map((x) => (
               <li key={x} className="flex items-start gap-3">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-primary" />

@@ -6,19 +6,19 @@ export function TestimonialSection() {
   const animation = useScrollAnimation();
   const items = [
     {
-      n: "Rina Anggraini",
-      r: "Marketing Manager",
-      q: "Setelah training, saya tidak lagi gugup saat presentasi ke klien. Materinya aplikatif banget!",
+      n: "Aa Juhana",
+      r: "Juru Bahasa",
+      q: "Sangat menarik, sangat patuh pada rencana dan bisa mengelola kelas dengan baik.",
     },
     {
-      n: "Bayu Saputra",
-      r: "Mahasiswa S2",
-      q: "Trainernya energik dan sabar. Saya yang dulu pemalu, sekarang berani jadi MC kampus.",
+      n: "Dr. Dwi Yunanto, M.Pd., C.MT",
+      r: "Dosen",
+      q: "Membangun kepercayaan (trust) secara instan dan bisa membagi waktu materi dan penjelasan, manajemen waktu is ok.",
     },
     {
-      n: "Dewi Lestari",
-      r: "HRD Korporat",
-      q: "Kami mengundang Lead & Speak untuk training internal — semua tim merasakan dampaknya.",
+      n: "H. Bambang Sukmana, S.E., M.M.",
+      r: "Pengusaha (Tour & Travel + EO)",
+      q: "Coach Ibnu Jabir menyampaikan materi dengan terstruktur, bahasanya mudah difahami, memotivasi & materi yang disampaikan syarat dengan ilmu.",
     },
   ];
   return (

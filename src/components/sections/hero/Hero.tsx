@@ -36,7 +36,9 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 pb-20 pt-14 lg:grid-cols-2 lg:pt-20">
         <div className="order-1">
           <div className="flex justify-center lg:justify-start">
-            <SectionLabel>Luzins Academy Indonesia</SectionLabel>
+            <SectionLabel className="text-gold">
+              Luzins Academy Indonesia
+            </SectionLabel>
           </div>
           <h1 className="mt-5 text-center text-5xl font-bold uppercase leading-[0.95] sm:text-6xl lg:text-left lg:text-7xl">
             Latih Skill <br className="hidden sm:block" />
@@ -62,9 +64,9 @@ export function Hero() {
             </div>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4 border-t border-border pt-6 text-center lg:justify-start lg:text-left">
-              <Stat n="9+ Tahun" l="Pengalaman Coach" />
-              <Stat n="LKP Resmi" l="Izin Operasional" />
-              <Stat n="C.PS" l="Gelar Non-Akademik" />
+              <p className="text-lg font-semibold text-gold">
+                Menginspirasi Lewat Kata, Berkarya untuk Indonesia
+              </p>
             </div>
         </div>
 

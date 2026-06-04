@@ -36,15 +36,11 @@ export function FaqSection() {
     ],
     [
       "Apakah saya mendapatkan sertifikat?",
-      "Ya, setiap peserta yang menyelesaikan pelatihan akan mendapatkan sertifikat resmi dari Lead & Speak Academy.",
+      "Ya, setiap peserta yang menyelesaikan pelatihan akan mendapatkan sertifikat resmi dari LKP Luzins Academy Indonesia.",
     ],
     [
       "Apakah bisa untuk instansi atau perusahaan?",
       "Tentu. Kami melayani in-house training dengan kurikulum yang dapat disesuaikan kebutuhan tim Anda.",
-    ],
-    [
-      "Apakah training bisa online dan offline?",
-      "Bisa keduanya. Kelas online via Zoom interaktif, atau offline di kota Anda.",
     ],
     [
       "Bagaimana cara mendaftarnya?",

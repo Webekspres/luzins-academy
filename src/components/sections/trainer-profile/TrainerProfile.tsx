@@ -13,8 +13,8 @@ export function TrainerProfile() {
     },
     {
       i: Award,
-      t: "Lisensi Kemenkumham",
-      d: "Sebagai Master Trainer & Fasilitator Nasional berlisensi resmi.",
+      t: "Trainer Berkompeten",
+      d: "Master Trainer dengan lisensi BNSP RI dan Fasilitator Nasional dengan Lisensi KEMENDIKDASMEN.",
     },
     {
       i: Users,
@@ -24,7 +24,7 @@ export function TrainerProfile() {
     {
       i: Building2,
       t: "Gelar Non-Akademik C.PS",
-      d: "Mendapatkan gelar kredibilitas kompetensi Public Speaking resmi.",
+      d: "Peserta mendapatkan gelar kredibilitas kompetensi Public Speaking resmi.",
     },
   ];
   return (
@@ -36,13 +36,10 @@ export function TrainerProfile() {
             Kenali <span className="text-gradient-red">Sang Coach</span>
           </h2>
           <p className="mt-5 text-muted-foreground">
-            <strong className="text-foreground">Coach Ibnu Jabir</strong> (Muhammad Andrian Jabir,
-            S.Pd., S.T., C.ODS., C.MT) adalah Founder &amp; CEO Luzins Academy Indonesia. Memiliki pengalaman lebih dari 9 tahun dalam melatih kepercayaan diri dan teknik public
-            speaking.
+            <strong className="text-foreground">Coach Ibnu Jabir</strong> atau dengan nama lengkap Muhammad Anrawan Habib,S.Pd.Gr.,CPPS.,CMT. adalah Founder dan CEO Luzins Academy Indonesia. memiliki pengalaman lebih dari 9 tahun dalam melatih kepercayaan diri dan public speaking
           </p>
           <p className="mt-4 text-muted-foreground">
-            Merupakan Master Trainer dan Fasilitator Nasional berlisensi Kemenkumham RI, berkomitmen
-            melahirkan pembicara hebat yang kompeten dan berdampak.
+            Ia merupakan Master Trainer dengan Lisensi BNSP RI dan Fasilitator Nasional dengan Lisensi Kemendikdasmen.
           </p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:col-span-3">

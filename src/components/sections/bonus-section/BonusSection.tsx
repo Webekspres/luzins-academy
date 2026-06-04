@@ -1,14 +1,7 @@
-import { BookOpen, FileBadge, Gift, Users, PlayCircle, MessageCircle } from "lucide-react";
+import { BookOpen, Gift } from "lucide-react";
 
 export function BonusSection() {
-  const bonuses = [
-    { i: BookOpen, t: "E-Book Public Speaking", v: "Rp 150.000" },
-    { i: FileBadge, t: "Sertifikat Resmi", v: "Rp 100.000" },
-    { i: Gift, t: "Template Presentasi Premium", v: "Rp 200.000" },
-    { i: Users, t: "Akses Grup Diskusi Eksklusif", v: "Priceless" },
-    { i: PlayCircle, t: "Rekaman Materi Selamanya", v: "Rp 250.000" },
-    { i: MessageCircle, t: "Konsultasi 1-on-1 (30 menit)", v: "Rp 300.000" },
-  ];
+  const bonuses = [{ i: BookOpen, t: "E-Book Public Speaking" }];
   return (
     <section className="relative overflow-hidden border-y border-border bg-gradient-red py-20 text-primary-foreground">
       <div
@@ -23,21 +16,20 @@ export function BonusSection() {
           <div className="inline-flex items-center gap-2 bg-black/30 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em]">
             <Gift className="h-3.5 w-3.5" /> Bonus Spesial
           </div>
-          <h2 className="mt-4 text-4xl sm:text-5xl uppercase font-semibold">Bonus Senilai Jutaan Rupiah</h2>
+          <h2 className="mt-4 text-4xl sm:text-5xl uppercase font-semibold">Bonus Special Untuk Semua Peserta</h2>
           <p className="mt-3 opacity-90">Gratis untuk semua peserta yang mendaftar bulan ini.</p>
         </div>
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {bonuses.map(({ i: Icon, t, v }) => (
+        <div className="mt-12 flex justify-center">
+          {bonuses.map(({ i: Icon, t }) => (
             <div
               key={t}
-              className="flex items-center gap-4 border border-white/20 bg-black/30 p-5 backdrop-blur"
+              className="flex w-full max-w-xl items-center gap-4 border border-white/20 bg-black/30 p-6 backdrop-blur sm:p-8"
             >
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center bg-accent text-accent-foreground">
-                <Icon className="h-6 w-6" />
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center bg-accent text-accent-foreground">
+                <Icon className="h-7 w-7" />
               </div>
               <div>
-                <div className="font-bold">{t}</div>
-                <div className="text-sm text-accent">Senilai {v}</div>
+                <div className="text-xl font-bold sm:text-2xl">{t}</div>
               </div>
             </div>
           ))}
